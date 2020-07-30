@@ -52,11 +52,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/image_phone"
-            android:layout_width="63dp"
-            android:layout_height="200dp"
-            android:layout_marginTop="208dp"
-            android:src="@drawable/phone"
+            android:id="@+id/imageView7"
+            android:layout_width="97dp"
+            android:layout_height="389dp"
+            android:layout_marginTop="104dp"
+            android:src="@drawable/cellphone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

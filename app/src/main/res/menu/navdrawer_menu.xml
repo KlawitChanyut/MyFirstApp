@@ -7,6 +7,6 @@
         android:title="@string/rules" />
     <item
         android:id="@+id/aboutFragment"
-        android:icon="@drawable/phone"
+        android:icon="@drawable/cellphone"
         android:title="@string/about" />
 </menu>
