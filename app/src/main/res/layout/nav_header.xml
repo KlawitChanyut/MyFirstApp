@@ -36,15 +36,4 @@
         app:layout_constraintVertical_bias="0.133"
         app:srcCompat="@drawable/dou" />
 
-    <ImageView
-        android:id="@+id/image_capoogiggle"
-        android:layout_width="145dp"
-        android:layout_height="104dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/capoocia" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
