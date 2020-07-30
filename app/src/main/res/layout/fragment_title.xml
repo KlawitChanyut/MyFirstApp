@@ -27,15 +27,16 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="1306dp"
-            android:layout_height="1007dp"
-            android:src="@drawable/sky"
+            android:id="@+id/image_selee"
+            android:layout_width="1334dp"
+            android:layout_height="1128dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/selee"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51" />
 
         <ImageView
             android:id="@+id/image_klawit"
