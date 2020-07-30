@@ -44,7 +44,7 @@
             android:id="@+id/image_capoo"
             android:layout_width="158dp"
             android:layout_height="149dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="68dp"
             android:src="@drawable/capoohi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -52,15 +52,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/text_AboutKlawit"
             style="@style/DetailsStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:fontFamily="@font/aclonica"
+            android:fontFamily="@font/aldrich"
             android:text="@string/about_me"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
