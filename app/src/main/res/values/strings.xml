@@ -23,10 +23,12 @@
     <string name="android_trivia">Android Trivia</string>
     <string name="about_text">085-776-9595</string>
     <string name="rules_text">Hello, my name is Film
-    \n\nage 22 year
+    \n\nAage 22 year
+        \n\nBirthday 20/09/1998
     \n\nI love cat and him is name Oliver
     \n\nIm studying RMUTI
-    \n\nMy favorite game is DOOM ETERNAL</string>
+    \n\nMy favorite game is DOOM ETERNAL
+    \n\nMy hobbie is create video</string>
     <string name="rules">About Me</string>
     <string name="about">My Contact</string>
     <string name="trivia_hint">Trivia Hint</string>
