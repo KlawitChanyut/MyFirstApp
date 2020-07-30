@@ -37,25 +37,30 @@
             android:text="@string/contact"
             android:textColor="#000000"
             android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.359" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="183dp"
             android:layout_height="193dp"
             android:layout_marginTop="56dp"
+            android:layout_marginBottom="43dp"
             android:src="@drawable/capooglass"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="97dp"
             android:layout_height="389dp"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="84dp"
             android:src="@drawable/cellphone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,10 +69,11 @@
         <TextView
             android:id="@+id/rulesText"
             style="@style/ContactStyle"
-            android:layout_marginTop="348dp"
+            android:layout_marginTop="324dp"
             android:fontFamily="@font/aldrich"
             android:text="@string/about_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -75,7 +81,7 @@
             android:id="@+id/image_mail"
             android:layout_width="78dp"
             android:layout_height="123dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginTop="356dp"
             android:src="@drawable/gmail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -87,11 +93,11 @@
             style="@style/ContactStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="476dp"
+            android:layout_marginTop="444dp"
             android:fontFamily="@font/aldrich"
             android:text="@string/e_mail"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,7 +105,7 @@
             android:id="@+id/imageView3"
             android:layout_width="53dp"
             android:layout_height="175dp"
-            android:layout_marginTop="488dp"
+            android:layout_marginTop="452dp"
             android:src="@drawable/steam"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -110,7 +116,7 @@
             style="@style/ContactStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="612dp"
+            android:layout_marginTop="572dp"
             android:fontFamily="@font/aldrich"
             android:text="@string/steam"
             app:layout_constraintEnd_toEndOf="parent"
