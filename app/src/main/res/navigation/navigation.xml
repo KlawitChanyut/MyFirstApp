@@ -69,4 +69,8 @@
         android:name="com.example.android.navigation.RulesFragment"
         android:label="@string/about_klawit"
         tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/nameListFragment"
+        android:name="com.example.android.navigation.NameListFragment"
+        android:label="NameListFragment" />
 </navigation>

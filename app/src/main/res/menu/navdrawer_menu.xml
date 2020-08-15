@@ -9,4 +9,8 @@
         android:id="@+id/aboutFragment"
         android:icon="@drawable/phone"
         android:title="@string/about" />
+    <item
+        android:id="@+id/nameListFragment"
+        android:icon="@android:drawable/btn_star"
+        android:title="Name List" />
 </menu>
